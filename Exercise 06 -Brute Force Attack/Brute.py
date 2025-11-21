@@ -3,7 +3,7 @@ tries=0
 attempts = 5
 
 while tries < attempts:
-    enter_password = input("Enter password: ")
+    enter_password = input("Enter The password: ")
     if enter_password == password:
         print("correct password.approved")
         break
