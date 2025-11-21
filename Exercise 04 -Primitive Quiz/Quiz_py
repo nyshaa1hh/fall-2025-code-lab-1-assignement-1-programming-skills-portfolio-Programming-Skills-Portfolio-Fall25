@@ -1,18 +1,18 @@
-capital = input("What is the capital of France? ")
-if capital.strip().lower() == "paris":
-    print("Correct answer!")
+capital = input("The capital of France? ")
+if capital.lower().strip() == "paris":
+    print("That's correct!")
 else:
     print("Try again!")
     
   
-questions = {"France": "Paris","Germany": "Berlin", "Italy": "Rome","Spain": "Madrid","Portugal": "Lisbon","Netherlands": "Amsterdam",
-"Belgium": "Brussels","Switzerland": "Bern","Austria": "Vienna","Greece": "Athens"}
+questions = {"Germany": "Berlin", "Italy": "Rome", "Switzerland": "Bern","Spain": "Madrid","Portugal": "Lisbon",
+"Belgium": "Brussels","Netherlands": "Amsterdam","Austria": "Vienna","Greece": "Athens", "France": "Paris",}
 
 correct_answers = 0
 for country, correct_capital in questions.items():
-    answer = input("What is the capital of {country}? ")
+    answer = input("What is the capital of (country)? ")
     if answer.strip().lower() == correct_capital.strip().lower():
-        print("Correct answer!")
+        print("The answer is correct!")
         correct_answers += 1
     else:
         print("Wrong. The capital of (country) is (correct_capital).")
