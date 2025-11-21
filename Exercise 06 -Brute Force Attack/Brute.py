@@ -1,0 +1,16 @@
+password="SIx@556677"
+tries=0
+attempts = 5
+
+while tries < attempts:
+    enter_password = input("Enter password: ")
+    if enter_password == password:
+        print("correct password.approved")
+        break
+    else:
+        tries += 1
+        remaining = attempts - tries
+        if remaining > 0:
+            print(f"Wrong password. You have {remaining} attempts left.")
+        else:
+            print("Maximum attempts reached. Authorities have been notified.")

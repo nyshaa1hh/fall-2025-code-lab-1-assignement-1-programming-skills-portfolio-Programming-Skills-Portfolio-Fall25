@@ -1,8 +1,8 @@
 def even_odd(num):
     if num % 2 <= 0:
-        return f"{num} is even"
+        print("num is even")
     else:
-        return f"{num} is odd"
+        print("num is odd")
 
 def even_and_odd():
     num = int(input("Enter a number: "))
