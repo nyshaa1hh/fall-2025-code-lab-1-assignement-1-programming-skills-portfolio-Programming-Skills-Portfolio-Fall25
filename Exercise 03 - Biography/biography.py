@@ -11,5 +11,5 @@ def biography():
 
 def bio():
     bio = biography()
-    print(f"Name: {bio['name']}\nHometown: {bio['hometown']}\nAge: {bio['age']}")
+    print("Name: {bio['name']}\nHometown: {bio['hometown']}\nAge: {bio['age']}")
 bio()
