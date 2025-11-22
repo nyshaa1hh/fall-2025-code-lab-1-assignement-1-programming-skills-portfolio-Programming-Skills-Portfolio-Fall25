@@ -10,14 +10,14 @@ questions = {"Germany": "Berlin", "Italy": "Rome", "Switzerland": "Bern","Spain"
 
 correct_answers = 0
 for country, correct_capital in questions.items():
-    answer = input("What is the capital of (country)? ")
+    answer = input("What is the capital of {country}? ")
     if answer.strip().lower() == correct_capital.strip().lower():
         print("The answer is correct!")
         correct_answers += 1
     else:
-        print("Wrong. The capital of (country) is (correct_capital).")
+        print("Wrong. The capital of {country} is {correct_capital}.")
 
-print("You got (correct_answers) out of len(questions) correct.")
+print("You got {correct_answers} out of {len(questions)} correct.")
 if correct_answers == len(questions):
     print("Excellent! You got a perfect score!")
 else:
