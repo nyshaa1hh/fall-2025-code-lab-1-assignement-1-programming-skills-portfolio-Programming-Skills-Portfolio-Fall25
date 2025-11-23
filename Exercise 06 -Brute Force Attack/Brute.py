@@ -13,4 +13,4 @@ while tries < attempts:
         if remaining > 0:
             print(f"Wrong password. You have {remaining} attempts left.")
         else:
-            print("Maximum attempts reached. Authorities have been notified.")
+            print("Maximum attempts reached. You have been caught!")
