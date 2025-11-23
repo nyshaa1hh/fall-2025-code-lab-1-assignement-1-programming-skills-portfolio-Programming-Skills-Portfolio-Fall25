@@ -10,6 +10,6 @@ def biography():
     return {"name": name, "hometown": hometown, "age": age}
 
 def bio():
-    bio = biography()
-    print("Name: {bio['name']}\nHometown: {bio['hometown']}\nAge: {bio['age']}")
+    user_information = biography()
+    print(f"Name: {user_information['name']}\nHometown: {user_information['hometown']}\nAge: {user_information['age']}")                                                       
 bio()
