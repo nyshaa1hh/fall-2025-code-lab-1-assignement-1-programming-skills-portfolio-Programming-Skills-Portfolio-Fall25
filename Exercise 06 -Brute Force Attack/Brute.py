@@ -1,4 +1,4 @@
-password="SIx@556677"
+password=12345
 tries=0
 attempts = 5
 
